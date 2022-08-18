@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(22, 3, 3);
+}
+
+.container > div {
+    display: flex;
+    background-color: rgb(251, 243, 243);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    min-height: 60vh;
+}
+
+#app{
+    display: grid;
+    grid-template-columns: 2vw 11vw 2vw 12vw 2vw 12vw 2vw 12vw 2vw ;
+    grid-template-rows: 4vw 15vw 3vw 30vw 4vw;
+    justify-content: center;
+}
+
+#side{
+    background-color: rgb(209, 205, 205);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+#sideWords{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 250px;
+    margin-left: 40px;
+    padding: 0;
+
+}
+
+#review{
+    background-color: rgb(209, 205, 205);
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3; 
+}
+
+#ratings{
+    background-color: rgb(209, 205, 205);
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3; 
+}
+
+#analysis{
+    background-color: rgb(209, 205, 205);
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 3; 
+}
+
+#analysisNum{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+#website{
+    background-color: rgb(209, 205, 205);
+    grid-column-start: 4;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 5; 
+}
+
+#websiteBox{
+    background-color: rgb(157, 152, 152);
+    width: 34vw ;
+    height: 16vw;
+    margin-left: 4vw;
+    margin-top: 5vw;
+}
+
+h1{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+h3{
+    margin-left: 20px;
+}
